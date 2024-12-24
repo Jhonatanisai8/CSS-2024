@@ -1,0 +1,25 @@
+/* HERENCIA: 
+es la capacidad que tienen algunos elementos de heredar algunas propiedades de sus elementos contenedores(padres, abuelos,ect). */
+body{
+    background-color: gray;
+}
+.tittle {
+  color: cyan;
+  font-size: 45px;
+}
+
+.text {
+  color: green;
+}
+
+.link {
+  color: inherit;
+}
+
+.list {
+  color: indianred;
+}
+
+.list-item-extra{
+    color: initial;
+}
