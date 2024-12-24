@@ -5,6 +5,8 @@ se escribe el estilo en una sola vez.
 
 --selectores combinadores
     selector descendiente
+    selector de hermano siguiente   +
+    selector de hermanos siguientes ~
 --selectores pseudoclases y pseuelementos*/
 
 .text,
@@ -14,7 +16,18 @@ se escribe el estilo en una sola vez.
   background-color: steelblue;
 }
 
-
+/* ejemplo de selector descendiente */
 div .tittle-2 {
   background-color: greenyellow;
+}
+
+/* ejemplo de seleccion de hermanos */
+.text + .tittle-2 {
+  background-color: rebeccapurple;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* ejemplo de selector de hermanos siguientes.*/
+.text-2 ~ p {
+  background-color: red;
 }
