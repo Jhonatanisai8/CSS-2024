@@ -4,11 +4,14 @@ selectores elementales
  Selector Universal => *
  Selector de tipo o etiqueta => nombre de la etiqueta....
 selectores de atributo
+ id    => id del elemento
+ clase => clase del elemento
+ otros atributos => 
 - compuestos 
 selectores agrupados
 selectores combinadores
 selectores pseudoclases y pseuelementos*/
-* {
+/* * {
   margin: 6px;
   background-color: coral;
 }
@@ -24,4 +27,23 @@ ul {
 }
 li {
   background-color: burlywood;
+} */
+
+#tittle {
+  background-color: yellow;
+}
+
+.contenido {
+  background-color: aquamarine;
+  margin: 30px;
+}
+.pie_pagina {
+  background-color: coral;
+  margin: 50px;
+}
+
+.text {
+  color: gray;
+  background-color: yellowgreen;
+  margin: 20px;
 }
