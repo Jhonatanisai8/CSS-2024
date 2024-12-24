@@ -1,13 +1,36 @@
+/* 
+
+margin-top: margen superior
+margin-right: margen derecho 
+margin-bottom: margen inferior
+margin-left: margen izquierdo 
+
+admite hasta 4 valores que van a en el orden
+de las agujas del reloj.
+4 valores => margin: top-left-bottom-left
+3 valores => margin: top-left/right-bottom
+2 valores => margin: top/bottom left/right
+1 valor => top/right/bottom/left
+*/
 body {
   background-color: #333;
   color: white;
 }
-
+.tittle {
+  background-color: coral;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .block {
   background-color: rebeccapurple;
-  width: 280px; /*ancho*/
-  height: 250px; /*alto*/
-
+  width: 200px; /*ancho*/
+  height: 200px; /*alto*/
+  /* margin: 50px 150px 200px 70px; */
+  /* margin-top: 100px; */
+  /* margin-left: 50px; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .inline {
