@@ -14,7 +14,7 @@ selectores elementales
      [atributo^=valor] => comienza palabra
      [atributo*=valor] =>  contiene palabra
      [atributo$=valor] => termina palabra
-     [atributo|=valor] => 
+     [atributo|=valor] => elementos cuyo atributo comience con valor o valor-
  }
  
 - compuestos 

@@ -1,0 +1,12 @@
+/* - compuestos 
+selectores agrupados
+selectores combinadores
+selectores pseudoclases y pseuelementos*/
+
+/* selector agrupados */
+.text,
+.text-2,
+.text-3,
+.text-4 {
+  background-color: steelblue;
+}
