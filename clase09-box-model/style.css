@@ -31,6 +31,28 @@ admite hasta 4 valores que van a en el orden
  2 valores -> padding: top/bottom left/right
  1 valor -> padding: top/right/bottom/left
  */
+
+/* 
+BORDER:
+Es la propiedad que nos permite modificar el borde de la caja.
+Es un shorthand (propiedad abreviada) que agrupa 3 propiedades.
+
+border-weight:  ancho del borde
+    border-top-width
+    border-right-width  
+    border-bottom width
+    border-left-width
+border-style: estilo de borde 
+    border-top-style
+    border-right-style  
+    border-bottom style
+    border-left-style
+border-color: color del borde
+    border-top-color
+    border-right-color  
+    border-bottom color
+    border-left-color
+  */
 body {
   background-color: #333;
   color: white;
@@ -83,4 +105,7 @@ body {
 .button {
   margin-left: 100px;
   padding: 25px 50px;
+  border-width: 5px;
+  border-color: gray;
+  border-style: solid;
 }
