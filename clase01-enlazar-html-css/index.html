@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unir HTML CON CSS</title>
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+  </head>
+  <body>
+    <header>
+      <h1>Unir html con css</h1>
+    </header>
+    <main>
+      <h2>Formas Diferentes:</h2>
+      <article>
+        <header>
+          <h3>1º Forma</h3>
+        </header>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+          molestias qui placeat eum dolores minima adipisci quia, fugit nobis,
+          perferendis porro, assumenda saepe delectus praesentium dicta itaque
+          sed unde beatae?
+        </p>
+        <p>
+          Crear un archivo styles.css y vincularlo con la etiqueta "link" desde
+          el html.
+        </p>
+        <pre>
+            &lt;link rel="stylesheet" href="styles.css" /&gt;
+            </pre
+        >
+      </article>
+
+      <article>
+        <header>
+          <h3>2º Forma</h3>
+        </header>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+          molestias qui placeat eum dolores minima adipisci quia, fugit nobis,
+          perferendis porro, assumenda saepe delectus praesentium dicta itaque
+          sed unde beatae?
+        </p>
+        <p>
+          <b>Escribir CSS dentro del html.</b>
+        </p>
+        <pre>
+            <code>
+            &lt;style&gt;
+            body {
+                font-family: Arial, sans-serif;
+                background-color: gray;
+            }
+            &lt;/style&gt;
+            </code>
+            </pre>
+      </article>
+
+      <article>
+        <header>
+          <h3>3º Forma</h3>
+        </header>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+          molestias qui placeat eum dolores minima adipisci quia, fugit nobis,
+          perferendis porro, assumenda saepe delectus praesentium dicta itaque
+          sed unde beatae?
+        </p>
+        <p>
+          <b>Escribir CSS en linea, osea como un atributo.</b>
+        </p>
+        <pre>
+            <code>
+            &lt;p style="background-color: red;"&gt;
+            Lorem ipsum dolor sit amet...
+            &lt;/p&gt;
+            </code>
+            </pre>
+      </article>
+      <article>
+        <header>
+          <h3>4º Forma</h3>
+        </header>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+          molestias qui placeat eum dolores minima adipisci quia, fugit nobis,
+          perferendis porro, assumenda saepe delectus praesentium dicta itaque
+          sed unde beatae?
+        </p>
+        <p>
+          <b
+            >Equivante al vincular CSS con la etiqueta "Link", pero en este caso
+            usando CSS</b>
+        </p>
+        <pre>
+            <code>
+            &lt;style&gt;
+            @import url(styles.css);
+            &lt;/style&gt;
+            </code>
+            </pre>
+      </article>
+      <style>
+        @import url(styles.css);
+      </style>
+    </main>
+    <footer>
+      <p>Desarrollado por Jhonatan Isai Ojeda Sanchez. &copy; 2024</p>
+    </footer>
+  </body>
+</html>
