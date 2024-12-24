@@ -1,0 +1,4 @@
+/* selector decendente */
+.container > p{
+    background-color: rebeccapurple;
+}
