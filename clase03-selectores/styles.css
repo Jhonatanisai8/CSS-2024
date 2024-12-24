@@ -1,12 +1,22 @@
 /* SELECTORES
 - simples
+
 selectores elementales
  Selector Universal => *
  Selector de tipo o etiqueta => nombre de la etiqueta....
-selectores de atributo
+ 
+ selectores de atributo
  id    => id del elemento
  clase => clase del elemento
- otros atributos => 
+ otros atributos =>  {
+     [nombre del atributo] => 
+     [atributo=valor] => 
+     [atributo^=valor] => comienza palabra
+     [atributo*=valor] =>  contiene palabra
+     [atributo$=valor] => termina palabra
+     [atributo|=valor] => 
+ }
+ 
 - compuestos 
 selectores agrupados
 selectores combinadores
@@ -29,7 +39,7 @@ li {
   background-color: burlywood;
 } */
 
-#tittle {
+/* #tittle {
   background-color: yellow;
 }
 
@@ -46,4 +56,25 @@ li {
   color: gray;
   background-color: yellowgreen;
   margin: 20px;
+} */
+
+[href] {
+  background-color: coral;
+}
+/* atributo valor */
+[href="https://www.youtube.com"]
+{
+  background-color: yellowgreen;
+}
+[href^="color"] {
+  background-color: yellow;
+}
+[href*="modo"] {
+  background-color: goldenrod;
+}
+[href$="rojo"] {
+  background-color: blueviolet;
+}
+[href|="en"] {
+  background-color: magenta;
 }
