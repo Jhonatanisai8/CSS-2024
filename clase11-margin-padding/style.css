@@ -6,4 +6,11 @@
 .text02{
     border: solid;
     padding: 50px;
+
 }
+
+div {
+    border: 2px solid black; /* Borde de 2px, sólido y negro */
+    padding: 10px; /* Espacio de 10px entre el borde y el contenido */
+    margin: 20px; /* Espacio de 20px entre la caja y otros elementos */
+  }
