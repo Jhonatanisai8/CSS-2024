@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* stilos para la cabecera */
+header {
+  background-color: cadetblue;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header nav a {
+  color: white;
+  margin-left: 25px;
+  text-decoration: none;
+}
+
+/* contenido principal, osea el main */
+main {
+  display: flex;
+  padding: 20px;
+}
+
+.content {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.content h1 {
+  margin-top: 0;
+}
+
+.image {
+  flex: 1;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+footer{
+    background-color: cadetblue;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
