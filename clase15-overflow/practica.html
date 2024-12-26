@@ -1,0 +1,79 @@
+<!-- 
+Overflow: 
+Es la propiedad que controla que debe hacer la caja cuando su contenido se desborda del contenedor
+Es un sorthand que engloba overflow-x y overflow-y
+Tiene cuatro posibles valores:
+    
+    visible -> es el valor por defecto 
+    
+    hidden  -> el contenido que se desborde no se vera. Si aplicamos esta propiedad en un solo eje, el otro se pondra automaticamente en el valor scroll.
+
+    scroll  -> Apareceran barras de scroll en el eje asiganado (x , y o ambos)
+
+    auto -> apareceran barras de scroll en el caso de que hicieran falta
+
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uso del Overflow</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #333;
+        color: #fff;
+        margin: 0;
+      }
+
+      .box {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        background-color: white;
+        width: 300px;
+        height: 300px;
+        color: black;
+        border-radius: 50px;
+        overflow: auto;
+      }
+
+      .conten01,
+      .conten02 {
+        background-color: lightcoral;
+        padding: 15px;
+      }
+
+      .text {
+        margin: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Uso del Overflow</h1>
+    <div class="box">
+      <div class="conten01">
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum sunt
+          similique ducimus possimus esse laboriosam, ad fuga ipsam aliquam et
+          nostrum quo est quibusdam officia temporibus assumenda rerum!
+          Praesentium, similique?
+        </p>
+      </div>
+
+      <div class="conten02">
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum sunt
+          similique ducimus possimus esse laboriosam, ad fuga ipsam aliquam et
+          nostrum quo est quibusdam officia temporibus assumenda rerum!
+          Praesentium, similique?
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
