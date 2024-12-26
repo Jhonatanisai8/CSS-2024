@@ -1,0 +1,67 @@
+<!-- 
+Overflow: 
+Es la propiedad que controla que debe hacer la caja cuando su contenido se desborda del contenedor
+Es un sorthand que engloba overflow-x y overflow-y
+Tiene cuatro posibles valores:
+    
+    visible -> es el valor por defecto 
+    
+    hidden  -> el contenido que se desborde no se vera. Si aplicamos esta propiedad en un solo eje, el otro se pondra automaticamente en el valor scroll.
+
+    scroll  -> Apareceran barras de scroll en el eje asiganado (x , y o ambos)
+
+    auto -> apareceran barras de scroll en el caso de que hicieran falta
+
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uso del Overflow</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #333;
+        color: #fff;
+        margin: 0;
+      }
+
+      .box {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        background-color: lightcoral;
+        width: 300px;
+        height: 300px;
+        color: black;
+        overflow-y: scroll;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Uso del Overflow</h1>
+    <div class="box">
+      <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, eum
+        odit eos consequuntur vitae cumque cupiditate ratione natus aliquam
+        officiis sequi ipsam accusamus quis inventore veritatis velit corrupti
+        hic quasi.F Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Quae provident, error dolores veniam porro voluptatem explicabo corrupti
+        veritatis saepe possimus accusamus deserunt! Alias reprehenderit ea
+        repellendus cumque ex hic voluptatibus. Autem, culpa? Id, cupiditate
+        repellat! Inventore mollitia libero, veniam culpa laudantium iste unde
+        perspiciatis ipsum, quos alias dicta cupiditate fugit illo magni eius
+        dolorum ullam? Quisquam error nostrum ab eaque. Voluptatem voluptates,
+        aperiam accusantium id perspiciatis officiis velit suscipit deserunt
+        nisi optio saepe, quis dignissimos explicabo cupiditate maiores illo
+        tenetur quod perferendis nulla temporibus. Eaque ratione sint modi
+        libero recusandae!
+      </p>
+    </div>
+  </body>
+</html>
